@@ -11,7 +11,8 @@ from telegram.ext import (
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ.get("BOT_TOKEN")
+TOKEN = TOKEN = "8721867999:AAGVLucJwEXJlkqLY57QvVP8jnvs2kZZIZE"
+
 DATA_FILE = "gastos.json"
 BUDGET = 500_000
 
